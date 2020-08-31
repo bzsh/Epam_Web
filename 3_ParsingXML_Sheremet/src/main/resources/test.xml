@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.com/flowers"
+         xs:schemaLocation="http://www.example.com/flowers test.xsd">
+
+    <flower id="a1" name="Amaryllis">
+        <soil>ground</soil>
+
+        <origin>USSR</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a2" name="Flabellata">
+        <soil>ground</soil>
+
+        <origin>Montenegro</origin>
+
+        <visual-parameters>
+            <leaf-color>black</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>27</temperature>
+            <lighting>true</lighting>
+            <watering>53</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+</flowers>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.com/flowers"
+           xmlns="http://www.example.com/flowers">
+
+    <xs:element name="flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="flower" type="flower" minOccurs="2" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="flower">
+        <xs:sequence>
+            <xs:element name="soil" type="soil-type" default="podzol"/>
+            <xs:element name="origin" type="xs:string" default="NoOrigin"/>
+            <xs:element name="visual-parameters" type="visual-parameters"/>
+            <xs:element name="date-landing" type="xs:date"/>
+            <xs:element name="growing-tips" type="growing-tips-type"/>
+            <xs:element name="multiplying" type="multiplying-type" default="seeds"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="flowerID" use="required"/>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="soil-type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="podzol"/>
+            <xs:enumeration value="ground"/>
+            <xs:enumeration value="sod-podzolic"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="visual-parameters">
+        <xs:all>
+            <xs:element name="leaf-color" type="xs:string"/>
+            <xs:element name="stem-color" type="xs:string"/>
+            <xs:element name="length" type="xs:integer"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="growing-tips-type">
+        <xs:all>
+            <xs:element name="temperature" type="xs:integer" default="0"/>
+            <xs:element name="lighting" type="xs:boolean" default="false"/>
+            <xs:element name="watering" type="xs:integer" default="0"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:simpleType name="multiplying-type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="leaves"/>
+            <xs:enumeration value="cuttings"/>
+            <xs:enumeration value="seeds"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="flowerID">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="[a-z][0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

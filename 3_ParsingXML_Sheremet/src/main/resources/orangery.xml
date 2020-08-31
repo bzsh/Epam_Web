@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.com/flowers"
+         xs:schemaLocation="http://www.example.com/flowers orangery.xsd">
+
+    <flower id="a1" name="Amaryllis">
+        <soil>ground</soil>
+
+        <origin>USSR</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a2" name="Flabellata">
+        <soil>ground</soil>
+
+        <origin>Montenegro</origin>
+
+        <visual-parameters>
+            <leaf-color>black</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>27</temperature>
+            <lighting>true</lighting>
+            <watering>53</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a3" name="Anemone">
+        <soil>sod-podzolic</soil>
+
+        <origin>USSR</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>green</stem-color>
+            <length>62</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a4" name="Antirrhinum">
+        <soil>ground</soil>
+
+        <origin>France</origin>
+
+        <visual-parameters>
+            <leaf-color>rad</leaf-color>
+            <stem-color>blue</stem-color>
+            <length>66</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>50</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a5" name="Asparagus ">
+        <soil>ground</soil>
+
+        <origin>Serbia</origin>
+
+        <visual-parameters>
+            <leaf-color>black</leaf-color>
+            <stem-color>black</stem-color>
+            <length>256</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>30</temperature>
+            <lighting>true</lighting>
+            <watering>15</watering>
+        </growing-tips>
+
+        <multiplying>seeds</multiplying>
+
+    </flower>
+
+    <flower id="a6" name="Setaceus">
+        <soil>ground</soil>
+
+        <origin>UK</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>violet</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a7" name="Hydrangea">
+        <soil>sod-podzolic</soil>
+
+        <origin>Poland</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a8" name="Dracaena">
+        <soil>ground</soil>
+
+        <origin>Belarus</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>green</stem-color>
+            <length>45</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>12</watering>
+        </growing-tips>
+
+        <multiplying>seeds</multiplying>
+
+    </flower>
+
+    <flower id="a9" name="Eupatorium">
+        <soil>ground</soil>
+
+        <origin>Spain</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>red</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a10" name="Calla">
+        <soil>sod-podzolic</soil>
+
+        <origin>Germany</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>green</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>5</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a11" name="Panicum">
+        <soil>ground</soil>
+
+        <origin>Italy</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>black</stem-color>
+            <length>35</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>30</temperature>
+            <lighting>true</lighting>
+            <watering>65</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a12" name="Chrysalidocarpus">
+        <soil>ground</soil>
+
+        <origin>Ukraine</origin>
+
+        <visual-parameters>
+            <leaf-color>blue</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>51</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a13" name="Santini">
+        <soil>podzol</soil>
+
+        <origin>France</origin>
+
+        <visual-parameters>
+            <leaf-color>yellow</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>22</temperature>
+            <lighting>true</lighting>
+            <watering>57</watering>
+        </growing-tips>
+
+        <multiplying>leaves</multiplying>
+
+    </flower>
+
+    <flower id="a14" name="Freesia">
+        <soil>sod-podzolic</soil>
+
+        <origin>USA</origin>
+
+        <visual-parameters>
+            <leaf-color>brown</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>23</temperature>
+            <lighting>false</lighting>
+            <watering>56</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+
+    <flower id="a15" name="Equisetum">
+        <soil>ground</soil>
+
+        <origin>Belgium</origin>
+
+        <visual-parameters>
+            <leaf-color>green</leaf-color>
+            <stem-color>black</stem-color>
+            <length>25</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>261</temperature>
+            <lighting>true</lighting>
+            <watering>35</watering>
+        </growing-tips>
+
+        <multiplying>leaves</multiplying>
+
+    </flower>
+
+    <flower id="a16" name="Tulipa">
+        <soil>sod-podzolic</soil>
+
+        <origin>USSR</origin>
+
+        <visual-parameters>
+            <leaf-color>blue</leaf-color>
+            <stem-color>black</stem-color>
+            <length>34</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>77</temperature>
+            <lighting>true</lighting>
+            <watering>300</watering>
+        </growing-tips>
+
+        <multiplying>seeds</multiplying>
+
+    </flower>
+
+    <flower id="a17" name="Tanacetum">
+        <soil>podzol</soil>
+
+        <origin>Australia</origin>
+
+        <visual-parameters>
+            <leaf-color>black</leaf-color>
+            <stem-color>red</stem-color>
+            <length>254</length>
+        </visual-parameters>
+
+        <date-landing>2019-10-01</date-landing>
+
+        <growing-tips>
+            <temperature>77</temperature>
+            <lighting>true</lighting>
+            <watering>300</watering>
+        </growing-tips>
+
+        <multiplying>cuttings</multiplying>
+
+    </flower>
+</flowers>
